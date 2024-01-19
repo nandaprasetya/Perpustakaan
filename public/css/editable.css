@@ -1,0 +1,105 @@
+@font-face {
+    font-family: poppins;
+    src: url('../font/Poppins/Poppins-Regular.ttf'),
+    url('../font/Poppins/Poppins-Black.ttf'),
+    url('../font/Poppins/Poppins-Bold.ttf'),
+    url('../font/Poppins/Poppins-ExtraBold.ttf'),
+    url('../font/Poppins/Poppins-ExtraLight.ttf'),
+    url('../font/Poppins/Poppins-Italic.ttf'),
+    url('../font/Poppins/Poppins-Light.ttf'),
+    url('../font/Poppins/Poppins-Medium.ttf'),
+    url('../font/Poppins/Poppins-SemiBold.ttf'),
+    url('../font/Poppins/Poppins-Thin.ttf')
+    ;
+}
+
+@font-face {
+    font-family: italiana;
+    src: url('../font/Italiana/Italiana-Regular.ttf');
+}
+
+@font-face {
+    font-family: philosopher;
+    src: url('../font/Philosopher/Philosopher-Regular.ttf')
+    url('../font/Philosopher/Philosopher-Bold.ttf'),
+    url('../font/Philosopher/Philosopher-BoldItalic.ttf'),
+    url('../font/Philosopher/Philosopher-Italic.ttf')
+    ;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+#formbuku{
+    max-width: 100%;
+    min-height: 100vh;
+}
+
+#formbuku h1{
+    font-size: 25px;
+    font-family: philosopher;
+    letter-spacing: 3px;
+}
+
+#formbuku form{
+    width: 80%;
+}
+
+#formbuku label{
+    font-size: 15px;
+    /* font-weight: 300; */
+    /* font-style: italic; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: philosopher;
+
+}
+
+#formbuku input, #formbuku textarea{
+    background-color: rgb(243, 243, 243);
+    border: 0px;
+    /* border-bottom: 1.5px solid rgb(205, 205, 205); */
+    padding: 10px 15px;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+    font-family: philosopher;
+    letter-spacing: 1px;
+}
+
+#formbuku .submit-btn{
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+#formbuku textarea{
+    resize: none;
+}
+
+.inner-form-buku{
+    width: 500px;
+}
+
+.background-form-buku{
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+}
+
+.inner-background-form-buku{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../source/background-form-buku.jpg');
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.main-sidebar{
+    background-color: rgb(249, 249, 249);
+}
